@@ -4,7 +4,7 @@
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
           <a href="#" class="navbar-brand fs-1 ps-5">Don't You Dare</a>
-          <button
+          <!-- <button
             class="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
@@ -29,7 +29,7 @@
                 <a href="#Start">Get Started</a>
               </li>
             </ul>
-          </div>
+          </div> -->
         </div>
       </nav>
     </header>
