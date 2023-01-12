@@ -3,7 +3,7 @@
     <header class="pt-5 pb-5">
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-          <a href="#" class="navbar-brand ps-5">Don't You Dare</a>
+          <a href="#" class="navbar-brand fs-1 ps-5">Don't You Dare</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -33,7 +33,6 @@
         </div>
       </nav>
     </header>
-    <hr />
     <section id="About" class="pt-5 pb-5 container-fluid">
       <div class="row justify-content-center">
         <div class="col col-9 col-sm-6">
@@ -45,7 +44,6 @@
         </div>
       </div>
     </section>
-    <hr />
     <section id="Instruction" class="pt-5 pb-5 container-fluid">
       <div class="row justify-content-center">
         <div class="col col-9 col-sm-6">
@@ -59,7 +57,6 @@
         </div>
       </div>
     </section>
-    <hr />
     <section id="Rules" class="pt-5 pb-5 container-fluid">
       <div class="row justify-content-center">
         <div class="col col-9 col-sm-6">
@@ -90,18 +87,16 @@
         </div>
       </div>
     </section>
-    <hr />
     <section id="Start" class="pt-5 pb-5 container-fluid">
       <div class="row justify-content-center">
         <div class="col col-9 col-sm-6">
           <h2 class="text-center">Do You Dare?</h2>
           <div class="text-center pt-3">
-            <button>Get Started</button>
+            <button type="button" class="btn btn-light">Get Started</button>
           </div>
         </div>
       </div>
     </section>
-    <hr />
     <footer class="pt-5 pb-5">
       <div class="row justify-content-center">
         <div class="col col-9 col-sm-6">
@@ -126,4 +121,33 @@ export default {
   name: "HomeView",
 };
 </script>
-<style></style>
+<style>
+.home {
+  overflow: hidden;
+  font-family: "Merienda";
+}
+.navbar-brand {
+  font-family: "Creepster";
+}
+h2 {
+  font-family: "Kaushan Script";
+}
+header,footer {
+  background-color: #cdf0ea;
+}
+#About {
+  background-color: #f9f9f9;
+}
+#Instruction {
+  background-color: #f7dbf0;
+}
+#Rules {
+  background-color: #f9f9f9;
+}
+#Start {
+  background-color: #f7dbf0;
+}
+.nav-item{
+  text-decoration: none;
+}
+</style>
